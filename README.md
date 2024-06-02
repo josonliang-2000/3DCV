@@ -48,7 +48,7 @@ chmod 644 ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 
 # 7 修改远程仓库url
-git remote set-url origin git@github.com:josonlinag-2000/3DCV.git
+git remote set-url origin git@github.com:josonliang-2000/3DCV.git
 
 # 如果问题仍然存在：
 # - 检查SSH公钥是否正确添加到GitHub。
