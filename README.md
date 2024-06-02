@@ -18,10 +18,12 @@
   git push -u origin [你的分支名]
 ```
 ## 用ssh连接代替https
-```
-# 1 生成SSH密钥：
-ssh-keygen -t ed25519 -C "your_email@example.com"
 
+1 生成SSH密钥：
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+```
 # 2 添加SSH密钥到SSH代理：
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
