@@ -6,7 +6,7 @@
 ```
 3. 创建并切换到自己分支
  ```
-   git checkout -b [名字拼音]
+   git checkout -b <名字拼音>
  ```
 3. 提交你的内容
 ```
@@ -15,7 +15,7 @@
 ```
 4. 提交到远程仓库
 ```
-  git push -u origin [你的分支名]
+  git push -u origin <你的分支名>
 ```
 ## 用ssh连接代替https
 ```
